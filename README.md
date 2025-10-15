@@ -18,7 +18,7 @@
 
 ## 📋 Sobre o Projeto
 
-**Utils Python Scripts** é uma coleção crescente de ferramentas Python desenvolvidas para automatizar tarefas comuns de gerenciamento de sistema e desenvolvimento. Esta é a **versão 1.0** do projeto, marcando o lançamento inicial com dois scripts essenciais para qualquer desenvolvedor.
+**Utils Python Scripts** é uma coleção crescente de ferramentas Python desenvolvidas para automatizar tarefas comuns de gerenciamento de sistema e desenvolvimento. O projeto iniciou com a **versão 1.0** com dois scripts essenciais (Backup e Cleaning), e agora inclui a **Parte 1/3 do Personal Utils Bundle** com mais dois utilitários multiplataforma (Gerador de Senhas e Gerador de Username).
 
 Cada script é cuidadosamente desenvolvido com foco em:
 - ✨ **Simplicidade de uso** - Interfaces intuitivas e documentadas
@@ -80,6 +80,55 @@ python3 cleaning/script.py --ex --c     # Limpeza completa
 
 ---
 
+### 🎲 Personal Utils Bundle - Parte 1/3
+Pacote de utilitários pessoais para uso diário - **Primeira parte de três**.
+
+> **🌍 Multiplataforma:** Estes utilitários são **100% multiplataforma** (Linux, macOS, Windows), usando apenas Python puro!
+
+#### 🔐 Gerador de Senhas Aleatórias
+Ferramenta para criar senhas seguras e personalizáveis através de linha de comando.
+
+**Características principais:**
+- 🔒 Geração de senhas alfanuméricas seguras
+- 🎨 Opção de incluir símbolos especiais (!@#$%&*)
+- 📏 Tamanho personalizável (padrão: 12 caracteres)
+- 🔢 Gerar múltiplas senhas de uma vez
+- ⚡ Interface simples de linha de comando
+- 🎯 Zero dependências externas
+
+```bash
+# Exemplos de uso
+python3 Personal-utils-bundle/gerarSenha/script.py
+python3 Personal-utils-bundle/gerarSenha/script.py -t 16 -q 5
+python3 Personal-utils-bundle/gerarSenha/script.py --tamanho 20 --sem-simbolos
+```
+
+**[📖 Documentação Completa](Personal-utils-bundle/gerarSenha/DOCUMENTACAO_TECNICA.md)**
+
+---
+
+#### 👤 Gerador de Username com IA
+Crie usernames criativos e estilosos utilizando a API do Google Gemini.
+
+**Características principais:**
+- 🤖 Geração inteligente com IA (Google Gemini)
+- 🎨 Usernames únicos com símbolos especiais
+- 🎲 Modo aleatório ou baseado em nome
+- 💡 Variedade criativa sem código complexo
+- 🌐 Interface interativa de linha de comando
+- 🔑 Configuração simples via variável de ambiente
+
+```bash
+# Exemplos de uso
+python3 Personal-utils-bundle/gerarUsername/script.py
+# O script apresentará um menu interativo
+```
+
+**Requisito:** API Key do Google Gemini (gratuita)  
+**[📖 Documentação Completa](Personal-utils-bundle/gerarUsername/DOCUMENTACAO_TECNICA.md)**
+
+---
+
 ## 🚀 Instalação
 
 ### Pré-requisitos
@@ -131,7 +180,9 @@ Cada script possui documentação técnica completa e detalhada:
 | Script | Documentação |
 |--------|-------------|
 | **Backup** | [DOCUMENTACAO_TECNICA.md](backup/DOCUMENTACAO_TECNICA.md) | 
-| **Cleaning** | [DOCUMENTACAO_TECNICA.md](cleaning/DOCUMENTACAO_TECNICA.md) | 
+| **Cleaning** | [DOCUMENTACAO_TECNICA.md](cleaning/DOCUMENTACAO_TECNICA.md) |
+| **Gerador de Senhas** | [DOCUMENTACAO_TECNICA.md](Personal-utils-bundle/gerarSenha/DOCUMENTACAO_TECNICA.md) |
+| **Gerador de Username** | [DOCUMENTACAO_TECNICA.md](Personal-utils-bundle/gerarUsername/DOCUMENTACAO_TECNICA.md) |
 
 A documentação técnica cobre:
 - 🏗️ Arquitetura e design do código
@@ -146,13 +197,15 @@ A documentação técnica cobre:
 
 ### Próximos commits
 
-#### 🎲 Personal Utils Bundle (Próximo Lançamento)
-Pacote completo de utilitários para uso pessoal e diário.
+#### 🎲 Personal Utils Bundle - Partes 2/3 e 3/3 (Em Desenvolvimento)
+Continuação do pacote de utilitários pessoais.
 
-> **🌍 Multiplataforma:** Ao contrário dos scripts v1.0, estes utilitários serão **100% multiplataforma** (Linux, macOS, Windows), usando apenas Python puro sem dependências de sistema operacional! Uma coleção de ferramentas individuais para tarefas cotidianas. Cada utilitário será independente e pode ser usado separadamente ou em conjunto.
+> **✅ Parte 1/3 Lançada:** Gerador de Senhas e Gerador de Username já disponíveis!  
+> **🚧 Em Breve:** Mais utilitários multiplataforma serão adicionados nas partes 2 e 3.
+
+Uma coleção de ferramentas individuais para tarefas cotidianas. Cada utilitário é independente e pode ser usado separadamente ou em conjunto.
 
 ---
-
 
 #### 📊 System Monitor (Em Breve)
 Script de monitoramento de sistema com outputs simplificados e legíveis.
